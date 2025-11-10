@@ -37,7 +37,7 @@ The L₁ distance was used as the loss metric:
 def l1_error(theta, M, X):
     x_pred, y_pred = model(t, theta, M, X)
     return np.mean(np.abs(x_data - x_pred) + np.abs(y_data - y_pred))
-    Step 4: Random + Local Search Optimization
+Step 4: Random + Local Search Optimization
 
 Global random search: 5000 random combinations of parameters within the given range.
 
